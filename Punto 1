@@ -1,0 +1,16 @@
+Algoritmo division
+	
+    Escribir "Ingrese el primer numero:"
+    Leer primernumero
+	
+    Escribir "Ingrese el segundo numero:"
+    Leer segundonumero
+	
+    Si divisor = 0 Entonces
+        Escribir "LoLa - Mento por 0 no se puede dividir. Okles."
+    Sino
+        resultado <- primernumero / segundonumero
+        Escribir "el total de la division es:", resultado
+    FinSi
+	
+FinAlgoritmo
