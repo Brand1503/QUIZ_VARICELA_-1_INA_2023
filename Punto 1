@@ -6,7 +6,7 @@ Algoritmo division
     Escribir "Ingrese el segundo numero:"
     Leer segundonumero
 	
-    Si divisor = 0 Entonces
+    Si segundonumero = 0 Entonces
         Escribir "LoLa - Mento por 0 no se puede dividir. Okles."
     Sino
         resultado <- primernumero / segundonumero
