@@ -1,1 +1,43 @@
-3
+punto 2 
+Funcion getInvertNumber(numero: Entero) -> Entero
+		Definir invertedNumber como Entero = 0
+		
+		Mientras numero <> 0 Hacer
+			invertedNumber = invertedNumber * 10 + numero MOD 10
+			numero = numero DIV 10
+		Fin Mientras
+	Fin Funcion
+Funcion main
+    Definir numero1 como Entero
+	
+    Escribir "Ingrese un número:"
+    Leer numero1
+	
+    Definir invertedNumber como Entero = getInvertNumber(numero)
+    Escribir "Número invertido:", invertedNumber
+
+Fin Algoritmo
+
+
+
+
+
+
+
+punto 3
+Algoritmo getInvertNumber
+	definir invertedNumber Como Entero
+	Mientras numero = 0
+		invertedNumber = invertedNumber * 10 + numero % 10
+		
+	FinMientras
+FinAlgoritmo
+
+Funcion  main
+	Definir numero1 Como Entero
+	escribir "Ingrese un numero: "
+	leer numero1
+	definir invertedNumber  
+FinFuncion
+
+
